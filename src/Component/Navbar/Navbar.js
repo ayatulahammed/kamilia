@@ -29,7 +29,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <a className="main-nav-link" href="#">
+                <a className="main-nav-link" href="/my blog">
                   my blog
                 </a>
               </li>
