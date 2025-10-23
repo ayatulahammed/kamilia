@@ -1,12 +1,13 @@
-import "./Nav_bar.css";
+import "./Navbar.css";
 import BgImage from "../../img/Decore.png";
 import Logo from "../../img/Logo.png";
+import { Link } from "react-router-dom";
 
-export default function Nav_bar() {
+export default function Navbar() {
   return (
     <>
-      <div className="body">
-        <header className="container header ">
+      <header className="">
+        <div className="container header">
           <div className="logo">
             <div className="menu_box"></div>
             <img src={Logo} alt="Logo" />
@@ -18,14 +19,14 @@ export default function Nav_bar() {
           <nav className="main-nav">
             <ul className="main-nav-list">
               <li>
-                <a className="main-nav-link" href="#">
+                <Link className="main-nav-link" to="/home">
                   portfolio
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="main-nav-link" href="#">
+                <Link className="main-nav-link" to="/about">
                   about me
-                </a>
+                </Link>
               </li>
               <li>
                 <a className="main-nav-link" href="#">
@@ -72,8 +73,8 @@ export default function Nav_bar() {
               </a>
             </li>
           </ul>
-        </header>
-      </div>
+        </div>
+      </header>
     </>
   );
 }
