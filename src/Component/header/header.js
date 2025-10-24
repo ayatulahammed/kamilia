@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./header.css";
 import MainImage from "./../../img/Hero Image.png";
 import CardImage1 from "./../../img/Work (1).png";
 import CardImage2 from "./../../img/Work (2).png";
